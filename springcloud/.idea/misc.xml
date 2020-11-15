@@ -7,7 +7,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../microservice-config-client/pom.xml" />
         <option value="$PROJECT_DIR$/../microservice-config-server/pom.xml" />
-        <option value="$PROJECT_DIR$/../microservice-consumer-movie-ribbon/pom.xml" />
       </list>
     </option>
   </component>
