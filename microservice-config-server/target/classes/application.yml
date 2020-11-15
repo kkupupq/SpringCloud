@@ -8,6 +8,6 @@ spring:
       server:
         git:
           uri: https://github.com/kkupupq/springcloud.git     # 配置Git仓库的地址
-          username: kupupq                                                         # Git仓库的账号
-          password: Kate1986426                                                       # Git仓库的密码
-          search-paths: config    #配置文件所在根目录
+          username: kupupq                                    # Git仓库的账号
+          password: Kate1986426                               # Git仓库的密码
+          search-paths: config                               #配置文件所在根目录
