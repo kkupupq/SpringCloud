@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="microservice-config-client" />
         <module name="microservice-config-server" />
+        <module name="microservice-config-client (1)" />
         <module name="springcloud" />
       </profile>
     </annotationProcessing>
@@ -18,6 +19,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="microservice-config-client" options="-parameters" />
+      <module name="microservice-config-client (1)" options="-parameters" />
       <module name="microservice-config-server" options="-parameters" />
       <module name="microservice-consumer-movie-ribbon" options="-parameters" />
     </option>
