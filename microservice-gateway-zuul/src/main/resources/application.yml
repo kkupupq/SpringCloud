@@ -13,7 +13,7 @@ zuul:
   prefix: /api
   strip-prefix: true
   routes:
-    microservice-provider-user: /user/**
+    microservice-consumer-movie: /**
 logging:
   level:
     com.netflix: DEBUG

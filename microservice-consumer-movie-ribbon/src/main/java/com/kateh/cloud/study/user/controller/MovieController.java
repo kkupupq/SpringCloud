@@ -27,7 +27,7 @@ public class MovieController {
     return this.restTemplate.getForObject("http://microservice-provider-user/" + id, User.class);
   }
 
-  public User findByIdFallback(Long id) {
+  public User findByIdFallback(@PathVariable Long id) {
     User user = new User();
     user.setId(-1L);
     user.setName("默认用户");

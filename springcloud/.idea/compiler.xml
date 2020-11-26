@@ -6,15 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="microservice-consumer-movie-ribbon" />
+        <module name="microservice-discovery-eureka" />
+        <module name="microservice-provider-user-sleuth" />
         <module name="springcloud" />
-        <module name="microservice-config-server" />
-        <module name="microservice-config-client" />
-        <module name="microservice-config-client (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="microservice-consumer-movie-ribbon" target="1.8" />
-      <module name="microservice-discovery-eureka" target="1.8" />
+      <module name="microservice-config-client" target="1.8" />
+      <module name="microservice-config-client (1)" target="1.8" />
+      <module name="microservice-config-server" target="1.8" />
+      <module name="microservice-gateway-zuul" target="1.8" />
       <module name="microservice-provider-user" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -25,7 +27,9 @@
       <module name="microservice-config-server" options="-parameters" />
       <module name="microservice-consumer-movie-ribbon" options="-parameters" />
       <module name="microservice-discovery-eureka" options="-parameters" />
+      <module name="microservice-gateway-zuul" options="-parameters" />
       <module name="microservice-provider-user" options="-parameters" />
+      <module name="microservice-provider-user-sleuth" options="-parameters" />
     </option>
   </component>
 </project>

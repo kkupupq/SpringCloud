@@ -32,7 +32,7 @@ public class UserController {
   @GetMapping("/callname")
   public User findRandomUser() {
     long totalCount = this.userRepository.count();
-    long randomUserId = (long) (Math.random() * totalCount) + 1;
+    long randomUserId =  (long) (Math.random() * totalCount + 1);
     User user = this.userRepository.findById(randomUserId).get();
     Integer gender = user.getGender();
     List<Name> nameList = this.nameRepository.findByGender(gender);
